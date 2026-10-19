@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali's Ultimate Birthday Quiz!</title>
+    <link rel="icon" type="image/png" href="data:image/jpeg;base64,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">
+    <style>
+        :root {
+            --primary-pink: #ff007f;
+            --dark-leather: #111111;
+            --glam-gold: #ffd700;
+            --text-light: #ffffff;
+            --card-bg: #222222;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: var(--dark-leather);
+            color: var(--text-light);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            text-align: center;
+        }
+        
+        /* --- COOL NAVIGATION BAR --- */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: var(--nav-bg);
+            backdrop-filter: blur(10px);
+            border-bottom: 2px solid var(--primary-pink);
+            box-shadow: 0 4px 20px rgba(255, 0, 127, 0.2);
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav li {
+            margin: 0;
+        }
+
+        nav a {
+            display: block;
+            color: var(--text-light);
+            text-align: center;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            font-family: 'Impact', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            color: var(--glam-gold);
+            background-color: rgba(255, 0, 127, 0.15);
+            text-shadow: 0 0 8px var(--primary-pink);
+            box-shadow: inset 0 -4px 0 var(--glam-gold);
+        }
+
+
+        header {
+            background: linear-gradient(135deg, #000000, var(--primary-pink));
+            padding: 4rem 2rem;
+            border-bottom: 5px solid var(--glam-gold);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-family: 'Impact', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text-light);
+            text-shadow: 3px 3px 0px var(--glam-gold);
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #ddd;
+            margin-top: 1rem;
+        }
+
+        .quiz-container {
+            max-width: 650px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .quiz-card {
+            background: var(--card-bg);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-left: 8px solid var(--primary-pink);
+            border-radius: 6px;
+            text-align: left;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .question {
+            font-family: 'Impact', sans-serif;
+            font-size: 1.4rem;
+            color: var(--glam-gold);
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px 15px;
+            font-size: 1.1rem;
+            border: 2px solid #444;
+            border-radius: 4px;
+            background-color: #111;
+            color: #fff;
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: var(--primary-pink);
+            box-shadow: 0 0 8px var(--primary-pink);
+        }
+
+        .action-btn {
+            background: linear-gradient(135deg, var(--primary-pink), #b30059);
+            color: white;
+            font-family: 'Impact', sans-serif;
+            font-size: 1.5rem;
+            padding: 1rem 2.5rem;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            box-shadow: 0 0 15px rgba(255, 0, 127, 0.4);
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+            margin-bottom: 4rem;
+        }
+
+        .action-btn:hover {
+            transform: scale(1.05);
+            color: var(--glam-gold);
+            box-shadow: 0 0 25px var(--primary-pink);
+        }
+
+        .result-box {
+            display: none;
+            background: #000;
+            border: 2px dashed var(--glam-gold);
+            padding: 2rem;
+            margin-top: 2rem;
+            border-radius: 4px;
+        }
+
+        .result-box h2 {
+            font-family: 'Impact', sans-serif;
+            color: var(--primary-pink);
+            margin-top: 0;
+        }
+
+        .answer-list {
+            list-style-type: '🌟 ';
+            padding-left: 1.5rem;
+            text-align: left;
+            color: #ddd;
+        }
+
+        .answer-list li {
+            margin-bottom: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <ul>
+            <li><a href="index15.html">Birthday</a></li>
+            <li><a href="next16.html">Games</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>⚡ ALi's BIRTHDAY TRIVIA ⚡</h1>
+        <p>Sagutin ang mga mapaglarong tanong na ito bago mo makuha ang iyong birthday blessing!</p>
+    </header>
+
+    <div class="container quiz-container">
+        
+        <!-- QUESTION 1 -->
+        <div class="quiz-card">
+            <div class="question">1. Happy 15th Birthday! Kung si Lady Gaga ay tawag sa kaniyang fans ay "Little Monsters"... Anong tawag sa fans ni Justin Timberlake?</div>
+            <input type="text" placeholder="lagay mo sagot mo dito, wow6" id="q1">
+        </div>
+
+        <!-- QUESTION 2 -->
+        <div class="quiz-card">
+            <div class="question">2. Anong tawag natin kay Justin Bieber?</div>
+            <input type="text" placeholder="lagay mo sagot mo dito, wow6" id="q2">
+        </div>
+
+        <!-- QUESTION 3 -->
+        <div class="quiz-card">
+            <div class="question">3. Anong yung nasulat mong "first" na word mong wrong spelling?</div>
+            <input type="text" placeholder="lagay mo sagot mo dito, wow6" id="q3">
+        </div>
+
+        <!-- QUESTION 4 -->
+        <div class="quiz-card">
+            <div class="question">4. Ilan taon ka na?</div>
+            <input type="text" placeholder="lagay mo sagot mo dito, wow6" id="q4">
+        </div>
+
+        <!-- MAIN SUBMIT BUTTON -->
+        <button class="action-btn" id="show-answers-btn" onclick="revealGameResults()">Show Answers</button>
+
+        <!-- HIDDEN RESULTS BOX -->
+        <div id="results" class="result-box">
+            <h2>🎉 Cheat Sheet & Real Answers!</h2>
+            <ul class="answer-list">
+                <li><strong>Tanong 1:</strong> Ang tamang sagot ay: <em>The Tennessee Kids!</em>wow6</li>
+                <li><strong>Tanong 2:</strong> <em>Justin Bierb, or justin barber</em> - yung ibon</li>
+                <li><strong>Tanong 3:</strong> fist</li>
+                <li><strong>Tanong 4:</strong> 15, alangan</li>
+            </ul>
+            <br>
+            <p style="color: var(--glam-gold); font-weight: bold; font-size: 1.2rem;">
+                wowwww, mamakopink
+            </p>
+        </div>
+
+    </div>
+
+    <script>
+        function revealGameResults() {
+            // Ipinapakita ang nakatagong answer container
+            const resultsSection = document.getElementById('results');
+            resultsSection.style.display = 'block';
+            
+            // Awtomatikong mag-i-scroll pababa papunta sa answers at final message
+            resultsSection.scrollIntoView({ behavior: 'smooth' });
+            
+            // Pop-up alert para mas masaya
+            alert("happoy bithdya po🎉🎈");
+        }
+    </script>
+
+</body>
+</html>
